@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>نور | NOOR</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{margin:0;background:#091810;color:#f5f3e9;font-family:Arial,sans-serif;padding:22px}
+
+header{text-align:center;padding:30px 0}
+
+.logo{color:#d9c38b;font-size:45px}
+
+h1{font-size:36px;margin:5px}
+
+header p,.muted{color:#a9b9ac}
+
+.hero,.card{background:#ffffff0b;border:1px solid #ffffff18;border-radius:22px;padding:22px;margin:14px 0}
+
+.hero{background:linear-gradient(135deg,#1c4533,#10271b)}
+
+h2{color:#e0ca91}
+
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+
+.card{margin:0;min-height:120px}
+
+.card a{color:#e0ca91;text-decoration:none;font-size:18px}
+
+.card p{font-size:13px;color:#a9b9ac;line-height:1.7}
+
+.ayah{font-family:serif;font-size:25px;line-height:2;text-align:center;color:#e9dfbd}
+
+button{background:#d9c38b;border:0;padding:12px 18px;border-radius:12px;font-size:15px}
+
+footer{text-align:center;color:#a9b9ac;padding:30px 0;font-size:12px}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">۞</div>
+
+<h1>نور</h1>
+
+<p>NOOR · نورٌ لقلبك كل يوم</p>
+
+</header>
+
+<section class="hero">
+
+<p class="muted">السلام عليكم ورحمة الله وبركاته</p>
+
+<h2>اجعل لقلبك نورًا</h2>
+
+<p>مساحتك اليومية للقرآن والذكر والسكينة.</p>
+
+</section>
+
+<h2>مساحتك الإيمانية</h2>
+
+<div class="grid">
+
+<div class="card"><a href="#quran">۞ القرآن الكريم</a><p>اقرأ واستمع إلى كتاب الله.</p></div>
+
+<div class="card"><a href="#adhkar">☼ الأذكار</a><p>أذكار الصباح والمساء.</p></div>
+
+<div class="card"><a href="#prayer">◷ الصلاة</a><p>تابع مواقيت الصلاة.</p></div>
+
+<div class="card"><a href="#library">▤ المكتبة</a><p>معرفة إسلامية نافعة.</p></div>
+
+</div>
+
+<section id="quran" class="hero">
+
+<h2>آية اليوم</h2>
+
+<p class="ayah">﴿ فَإِنَّ مَعَ الْعُسْرِ يُسْرًا ﴾</p>
+
+<p class="muted">سورة الشرح · الآية ٥</p>
+
+</section>
+
+<section id="adhkar" class="card">
+
+<h2>ذكر اليوم</h2>
+
+<p class="ayah">سُبْحَانَ اللَّهِ وَبِحَمْدِهِ</p>
+
+<p class="muted">ردّد الذكر واستحضر معناه.</p>
+
+</section>
+
+<section id="prayer" class="card">
+
+<h2>مواقيت الصلاة</h2>
+
+<p>تُضاف المواقيت الدقيقة حسب مدينتك عند ربط الموقع بمصدر موثوق.</p>
+
+</section>
+
+<section id="library" class="card">
+
+<h2>المكتبة الإسلامية</h2>
+
+<p>التفسير · الحديث · السيرة النبوية · الأدعية</p>
+
+</section>
+
+<footer>نور | NOOR<br>اللهم اجعل القرآن ربيع قلوبنا</footer>
+
+</body>
+
+</html>
